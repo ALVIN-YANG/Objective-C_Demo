@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3974FDEE1C18105A00863B27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3974FDED1C18105A00863B27 /* main.m */; };
+		3974FDF11C18105A00863B27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3974FDF01C18105A00863B27 /* AppDelegate.m */; };
+		3974FDF41C18105A00863B27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3974FDF31C18105A00863B27 /* ViewController.m */; };
+		3974FDF71C18105A00863B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3974FDF51C18105A00863B27 /* Main.storyboard */; };
+		3974FDF91C18105A00863B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3974FDF81C18105A00863B27 /* Assets.xcassets */; };
+		3974FDFC1C18105A00863B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3974FDFA1C18105A00863B27 /* LaunchScreen.storyboard */; };
+		3974FE071C18105A00863B27 /* _4_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3974FE061C18105A00863B27 /* _4_______Tests.m */; };
+		3974FE121C18105A00863B27 /* _4_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3974FE111C18105A00863B27 /* _4_______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3974FE031C18105A00863B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3974FDE11C18105A00863B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3974FDE81C18105A00863B27;
+			remoteInfo = "04-手势缩放旋转";
+		};
+		3974FE0E1C18105A00863B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3974FDE11C18105A00863B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3974FDE81C18105A00863B27;
+			remoteInfo = "04-手势缩放旋转";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3974FDE91C18105A00863B27 /* 04-手势缩放旋转.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-手势缩放旋转.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3974FDED1C18105A00863B27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3974FDEF1C18105A00863B27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3974FDF01C18105A00863B27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3974FDF21C18105A00863B27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3974FDF31C18105A00863B27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3974FDF61C18105A00863B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3974FDF81C18105A00863B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3974FDFB1C18105A00863B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3974FDFD1C18105A00863B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3974FE021C18105A00863B27 /* 04-手势缩放旋转Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-手势缩放旋转Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3974FE061C18105A00863B27 /* _4_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_______Tests.m"; sourceTree = "<group>"; };
+		3974FE081C18105A00863B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3974FE0D1C18105A00863B27 /* 04-手势缩放旋转UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-手势缩放旋转UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3974FE111C18105A00863B27 /* _4_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_______UITests.m"; sourceTree = "<group>"; };
+		3974FE131C18105A00863B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3974FDE61C18105A00863B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974FDFF1C18105A00863B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974FE0A1C18105A00863B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3974FDE01C18105A00863B27 = {
+			isa = PBXGroup;
+			children = (
+				3974FDEB1C18105A00863B27 /* 04-手势缩放旋转 */,
+				3974FE051C18105A00863B27 /* 04-手势缩放旋转Tests */,
+				3974FE101C18105A00863B27 /* 04-手势缩放旋转UITests */,
+				3974FDEA1C18105A00863B27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3974FDEA1C18105A00863B27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3974FDE91C18105A00863B27 /* 04-手势缩放旋转.app */,
+				3974FE021C18105A00863B27 /* 04-手势缩放旋转Tests.xctest */,
+				3974FE0D1C18105A00863B27 /* 04-手势缩放旋转UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3974FDEB1C18105A00863B27 /* 04-手势缩放旋转 */ = {
+			isa = PBXGroup;
+			children = (
+				3974FDEF1C18105A00863B27 /* AppDelegate.h */,
+				3974FDF01C18105A00863B27 /* AppDelegate.m */,
+				3974FDF21C18105A00863B27 /* ViewController.h */,
+				3974FDF31C18105A00863B27 /* ViewController.m */,
+				3974FDF51C18105A00863B27 /* Main.storyboard */,
+				3974FDF81C18105A00863B27 /* Assets.xcassets */,
+				3974FDFA1C18105A00863B27 /* LaunchScreen.storyboard */,
+				3974FDFD1C18105A00863B27 /* Info.plist */,
+				3974FDEC1C18105A00863B27 /* Supporting Files */,
+			);
+			path = "04-手势缩放旋转";
+			sourceTree = "<group>";
+		};
+		3974FDEC1C18105A00863B27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3974FDED1C18105A00863B27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3974FE051C18105A00863B27 /* 04-手势缩放旋转Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3974FE061C18105A00863B27 /* _4_______Tests.m */,
+				3974FE081C18105A00863B27 /* Info.plist */,
+			);
+			path = "04-手势缩放旋转Tests";
+			sourceTree = "<group>";
+		};
+		3974FE101C18105A00863B27 /* 04-手势缩放旋转UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3974FE111C18105A00863B27 /* _4_______UITests.m */,
+				3974FE131C18105A00863B27 /* Info.plist */,
+			);
+			path = "04-手势缩放旋转UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3974FDE81C18105A00863B27 /* 04-手势缩放旋转 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3974FE161C18105A00863B27 /* Build configuration list for PBXNativeTarget "04-手势缩放旋转" */;
+			buildPhases = (
+				3974FDE51C18105A00863B27 /* Sources */,
+				3974FDE61C18105A00863B27 /* Frameworks */,
+				3974FDE71C18105A00863B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-手势缩放旋转";
+			productName = "04-手势缩放旋转";
+			productReference = 3974FDE91C18105A00863B27 /* 04-手势缩放旋转.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3974FE011C18105A00863B27 /* 04-手势缩放旋转Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3974FE191C18105A00863B27 /* Build configuration list for PBXNativeTarget "04-手势缩放旋转Tests" */;
+			buildPhases = (
+				3974FDFE1C18105A00863B27 /* Sources */,
+				3974FDFF1C18105A00863B27 /* Frameworks */,
+				3974FE001C18105A00863B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3974FE041C18105A00863B27 /* PBXTargetDependency */,
+			);
+			name = "04-手势缩放旋转Tests";
+			productName = "04-手势缩放旋转Tests";
+			productReference = 3974FE021C18105A00863B27 /* 04-手势缩放旋转Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3974FE0C1C18105A00863B27 /* 04-手势缩放旋转UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3974FE1C1C18105A00863B27 /* Build configuration list for PBXNativeTarget "04-手势缩放旋转UITests" */;
+			buildPhases = (
+				3974FE091C18105A00863B27 /* Sources */,
+				3974FE0A1C18105A00863B27 /* Frameworks */,
+				3974FE0B1C18105A00863B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3974FE0F1C18105A00863B27 /* PBXTargetDependency */,
+			);
+			name = "04-手势缩放旋转UITests";
+			productName = "04-手势缩放旋转UITests";
+			productReference = 3974FE0D1C18105A00863B27 /* 04-手势缩放旋转UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3974FDE11C18105A00863B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "杨卢青";
+				TargetAttributes = {
+					3974FDE81C18105A00863B27 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					3974FE011C18105A00863B27 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3974FDE81C18105A00863B27;
+					};
+					3974FE0C1C18105A00863B27 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3974FDE81C18105A00863B27;
+					};
+				};
+			};
+			buildConfigurationList = 3974FDE41C18105A00863B27 /* Build configuration list for PBXProject "04-手势缩放旋转" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3974FDE01C18105A00863B27;
+			productRefGroup = 3974FDEA1C18105A00863B27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3974FDE81C18105A00863B27 /* 04-手势缩放旋转 */,
+				3974FE011C18105A00863B27 /* 04-手势缩放旋转Tests */,
+				3974FE0C1C18105A00863B27 /* 04-手势缩放旋转UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3974FDE71C18105A00863B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974FDFC1C18105A00863B27 /* LaunchScreen.storyboard in Resources */,
+				3974FDF91C18105A00863B27 /* Assets.xcassets in Resources */,
+				3974FDF71C18105A00863B27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974FE001C18105A00863B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974FE0B1C18105A00863B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3974FDE51C18105A00863B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974FDF41C18105A00863B27 /* ViewController.m in Sources */,
+				3974FDF11C18105A00863B27 /* AppDelegate.m in Sources */,
+				3974FDEE1C18105A00863B27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974FDFE1C18105A00863B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974FE071C18105A00863B27 /* _4_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974FE091C18105A00863B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974FE121C18105A00863B27 /* _4_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3974FE041C18105A00863B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3974FDE81C18105A00863B27 /* 04-手势缩放旋转 */;
+			targetProxy = 3974FE031C18105A00863B27 /* PBXContainerItemProxy */;
+		};
+		3974FE0F1C18105A00863B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3974FDE81C18105A00863B27 /* 04-手势缩放旋转 */;
+			targetProxy = 3974FE0E1C18105A00863B27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3974FDF51C18105A00863B27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3974FDF61C18105A00863B27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3974FDFA1C18105A00863B27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3974FDFB1C18105A00863B27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3974FE141C18105A00863B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3974FE151C18105A00863B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3974FE171C18105A00863B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-手势缩放旋转/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "n.-4-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3974FE181C18105A00863B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-手势缩放旋转/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "n.-4-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3974FE1A1C18105A00863B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "04-手势缩放旋转Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "n.-4-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-手势缩放旋转.app/04-手势缩放旋转";
+			};
+			name = Debug;
+		};
+		3974FE1B1C18105A00863B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "04-手势缩放旋转Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "n.-4-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-手势缩放旋转.app/04-手势缩放旋转";
+			};
+			name = Release;
+		};
+		3974FE1D1C18105A00863B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "04-手势缩放旋转UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "n.-4-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "04-手势缩放旋转";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3974FE1E1C18105A00863B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "04-手势缩放旋转UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "n.-4-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "04-手势缩放旋转";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3974FDE41C18105A00863B27 /* Build configuration list for PBXProject "04-手势缩放旋转" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974FE141C18105A00863B27 /* Debug */,
+				3974FE151C18105A00863B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3974FE161C18105A00863B27 /* Build configuration list for PBXNativeTarget "04-手势缩放旋转" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974FE171C18105A00863B27 /* Debug */,
+				3974FE181C18105A00863B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3974FE191C18105A00863B27 /* Build configuration list for PBXNativeTarget "04-手势缩放旋转Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974FE1A1C18105A00863B27 /* Debug */,
+				3974FE1B1C18105A00863B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3974FE1C1C18105A00863B27 /* Build configuration list for PBXNativeTarget "04-手势缩放旋转UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974FE1D1C18105A00863B27 /* Debug */,
+				3974FE1E1C18105A00863B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3974FDE11C18105A00863B27 /* Project object */;
+}
