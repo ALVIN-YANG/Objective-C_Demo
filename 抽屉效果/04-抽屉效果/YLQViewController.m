@@ -66,7 +66,7 @@
     if(pan.state == UIGestureRecognizerStateEnded)
     {
         CGFloat target = 0;
-        //当手指松开,要判断MainV的x值是否大于屏幕的一半,到一半自动定位
+        //当手指松开,要判断MainV的x值是否大于屏幕的一半,不到一半自动定位
         if (self.mainV.frame.origin.x > screenW * 0.5)
         {
             target = targetR;
@@ -99,7 +99,7 @@
     return frame;
 }
 
-- (void)setUpView{
+- (void)setUpView {
     //左边的View,最下面一层
     UIView *leftV = [[UIView alloc] initWithFrame:self.view.bounds];
     leftV.backgroundColor = [UIColor blueColor];

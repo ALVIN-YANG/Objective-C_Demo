@@ -40,6 +40,10 @@ static NSString *const ID = @"cell";
     return cell;
 }
 
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    NSLog(@"%f", self.tableView.contentOffset.y);
+}
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];

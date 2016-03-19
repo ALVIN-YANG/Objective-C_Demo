@@ -61,7 +61,7 @@ static NSString *ID = @"CELLID";
     //所以用colorWithWhite方法来设置字体的 透明度
     UILabel *titleL = [[UILabel alloc] init];
     titleL.textColor = [UIColor colorWithWhite:0 alpha:0];
-    titleL.text = @"个人详情页";
+    titleL.text = @"AmChocolate";
     //大小自适应(必须设置,因为导航条里的控件若不设置大小不会被显示)
     [titleL sizeToFit];
     self.titleL = titleL;

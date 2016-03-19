@@ -25,7 +25,7 @@
 //    UIImage * image = [UIImage imageNamed:@"bg"];
 //    UIImage *blurredImage = [blurFilter imageByFilteringImage:image];
 //    self.imageView.image = blurredImage;
-    self.imageView.image = [[UIImage imageNamed:@"bg"] blurImage];
+    self.imageView.image = [[UIImage imageNamed:@"image"] blurImage];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -30,8 +30,8 @@
     //向一边颤抖的角度
 //    CGFloat angel = (-5)/ 180.0   * M_PI;
     ckm.values = @[@(angle2radio(-5)), @(angle2radio(5)), @(angle2radio(-5))];
-    ckm.duration = 1;
-    ckm.repeatCount = MAXFLOAT;
+    ckm.duration = 0.3;
+    ckm.repeatCount = 3;
     
     
     //    CAKeyframeAnimation CABaseAnimaiton都是继承同一个父类.都是CAAnimation.所有他们都keyPath
