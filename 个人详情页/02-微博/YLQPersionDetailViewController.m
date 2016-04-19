@@ -38,7 +38,7 @@ static NSString *ID = @"CELLID";
     //取消自动添加的额外滚动区域
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-    self.navigationController.navigationBar.alpha = 0;
+//    self.navigationController.navigationBar.alpha = 0;
     //设置导航条隐藏, 因为导航条有子控件view
     //用setBackgroundImage传入一张空图片就可以
     //模式必须是UIBarMetricsDefault(公共默认)
@@ -57,7 +57,7 @@ static NSString *ID = @"CELLID";
     self.oriOffsetY = - (YLQHeaderH + YLQTarBarH);
     //只要设置额外的滚动区域,就会把内容往下挤
     self.tableView.contentInset = UIEdgeInsetsMake(YLQHeaderH+YLQTarBarH, 0, 0, 0);
-    //设置导航条title, 由于导航条的空间不能直接设置为透明
+    //设置导航条title, 由于导航条的控件不能直接设置为透明
     //所以用colorWithWhite方法来设置字体的 透明度
     UILabel *titleL = [[UILabel alloc] init];
     titleL.textColor = [UIColor colorWithWhite:0 alpha:0];

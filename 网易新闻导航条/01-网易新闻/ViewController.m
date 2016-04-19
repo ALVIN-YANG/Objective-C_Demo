@@ -235,7 +235,7 @@
 {
     // 让按钮形变
     NSInteger leftI = scrollView.contentOffset.x / YLQScreenW;
-    
+    NSLog(@"%zd", leftI);
     NSInteger rightI = leftI + 1;
     
     // 1.获取需要形变的按钮
@@ -254,7 +254,7 @@
     
     // 计算右边按钮偏移量
     CGFloat rightScale = scrollView.contentOffset.x / YLQScreenW;
-    
+    NSLog(@"%f", rightScale);
     // 只想要 0~1
     rightScale = rightScale - leftI;
     

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="动态字体下载中的泰克斯维尔动态字体下载中的泰克斯维尔动态字体下载中的泰克斯维尔动态字体下载中的泰克斯维尔动态字体下载中的泰克斯维尔动态字体下载中的泰克斯维尔动态字体下载中的泰克斯维尔动态字体下载中的泰克斯维尔动态字体下载中的泰克斯维尔" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jnw-PO-tiB">
+                                <rect key="frame" x="67" y="461" width="240" height="171"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8CC-VW-6xm">
+                                <rect key="frame" x="112" y="166" width="150" height="2"/>
+                            </progressView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="k6A-vl-hKd">
+                                <rect key="frame" x="177" y="115" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mmr-ZJ-Eqb">
+                                <rect key="frame" x="37" y="234" width="300" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="4eH-cv-QN6"/>
+                                    <constraint firstAttribute="width" constant="300" id="L7w-rK-fR2"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="NwD-CG-sOA"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="0Ka-9Z-Va5"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8CC-VW-6xm" secondAttribute="trailing" constant="113" id="2VV-zP-sA1"/>
+                            <constraint firstItem="Jnw-PO-tiB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="67" id="2hz-nw-ulK"/>
+                            <constraint firstItem="8CC-VW-6xm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="112" id="9eO-xS-iFr"/>
+                            <constraint firstItem="k6A-vl-hKd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="177" id="RyR-dD-s2T"/>
+                            <constraint firstItem="Jnw-PO-tiB" firstAttribute="top" secondItem="mmr-ZJ-Eqb" secondAttribute="bottom" constant="27.5" id="SDG-2k-H2A"/>
+                            <constraint firstItem="8CC-VW-6xm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="146" id="TKw-4M-Fym"/>
+                            <constraint firstItem="mmr-ZJ-Eqb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YoL-eP-d84"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Jnw-PO-tiB" secondAttribute="bottom" constant="35" id="ZpY-r4-TE9"/>
+                            <constraint firstItem="mmr-ZJ-Eqb" firstAttribute="top" secondItem="8CC-VW-6xm" secondAttribute="bottom" constant="65.5" id="gxX-Rs-924"/>
+                            <constraint firstAttribute="trailing" secondItem="Jnw-PO-tiB" secondAttribute="trailing" constant="68" id="mq9-KU-SoO"/>
+                            <constraint firstItem="k6A-vl-hKd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="95" id="ohl-l7-EuS"/>
+                            <constraint firstItem="mmr-ZJ-Eqb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sHN-Fd-6jG"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="fActivityIndicatorView" destination="k6A-vl-hKd" id="y4Q-lZ-LuS"/>
+                        <outlet property="fProgressView" destination="8CC-VW-6xm" id="g5J-mm-axl"/>
+                        <outlet property="fTableView" destination="mmr-ZJ-Eqb" id="OUq-nA-IB1"/>
+                        <outlet property="fTextView" destination="Jnw-PO-tiB" id="SxK-xH-IUN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="242.5" y="339.5"/>
+        </scene>
+    </scenes>
+</document>

@@ -108,7 +108,7 @@ typedef NS_ENUM(NSUInteger, snapshotMeetsEdge) {
     UIGraphicsBeginImageContextWithOptions(inputView.bounds.size, NO, 0);
     [inputView.layer renderInContext:UIGraphicsGetCurrentContext()];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndPDFContext();
+    UIGraphicsEndImageContext();
     
     //创建imageView
     UIView *snapshot = [[UIImageView alloc] initWithImage:image];

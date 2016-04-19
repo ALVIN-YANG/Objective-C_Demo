@@ -18,7 +18,9 @@ static UIStatusBarStyle style_;
 @implementation YLQTopWindowController
 //让控制器来管理事件
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    if(self.StatusBarClick) self.StatusBarClick();
+    if(self.StatusBarClick) {
+        self.StatusBarClick();
+    }
 }
 
 #pragma mark - 状态栏控制

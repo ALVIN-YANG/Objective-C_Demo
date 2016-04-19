@@ -13,6 +13,7 @@
 @implementation FlowLayout
 
 // 给定一个区域,就返回这个区域内所有cell布局
+//__kindof 代表这个类, 或这个类的子类
 - (nullable NSArray<__kindof UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect
 {
     // 1.获取显示区域,bounds

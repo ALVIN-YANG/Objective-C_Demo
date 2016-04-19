@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uoi-kR-gd2">
+                                <rect key="frame" x="180" y="180" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="6f3-eB-KfT"/>
+                                    <constraint firstAttribute="width" constant="240" id="qVI-Ji-BQw"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6l-iF-F75">
+                                <rect key="frame" x="200" y="494" width="200" height="30"/>
+                                <color key="backgroundColor" red="0.56152778290000005" green="0.95374833739999998" blue="0.95686274770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="nud-J6-Rcz"/>
+                                </constraints>
+                                <state key="normal" title="紫色边框">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="nud-J6-Rcz"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vho-9W-7lk">
+                                <rect key="frame" x="0.0" y="494" width="200" height="30"/>
+                                <color key="backgroundColor" red="0.56152778290000005" green="0.95374833739999998" blue="0.95686274770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Gzn-sy-q2C"/>
+                                    <constraint firstAttribute="height" constant="30" id="XUC-AT-luT"/>
+                                </constraints>
+                                <state key="normal" title="圆形">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEN-bU-OEj">
+                                <rect key="frame" x="400" y="494" width="200" height="30"/>
+                                <color key="backgroundColor" red="0.56152778290000005" green="0.95374833739999998" blue="0.95686274770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="纹理边框">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="X6l-iF-F75" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="196" id="0r6-3c-kpd"/>
+                            <constraint firstItem="uoi-kR-gd2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8MC-pd-WQ6"/>
+                            <constraint firstItem="JEN-bU-OEj" firstAttribute="leading" secondItem="X6l-iF-F75" secondAttribute="trailing" constant="28" id="9gi-vX-uGG"/>
+                            <constraint firstItem="X6l-iF-F75" firstAttribute="bottom" secondItem="Vho-9W-7lk" secondAttribute="bottom" id="DxI-qb-lyc"/>
+                            <constraint firstItem="X6l-iF-F75" firstAttribute="height" secondItem="Vho-9W-7lk" secondAttribute="height" id="FHS-Dl-ASa"/>
+                            <constraint firstItem="X6l-iF-F75" firstAttribute="firstBaseline" secondItem="JEN-bU-OEj" secondAttribute="baseline" id="OcX-dc-lfm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="X6l-iF-F75" secondAttribute="bottom" constant="66" id="Oe5-ym-Asp"/>
+                            <constraint firstItem="JEN-bU-OEj" firstAttribute="width" secondItem="X6l-iF-F75" secondAttribute="width" id="SOi-ii-Pgc"/>
+                            <constraint firstItem="X6l-iF-F75" firstAttribute="leading" secondItem="Vho-9W-7lk" secondAttribute="trailing" id="T34-dz-Hiy"/>
+                            <constraint firstItem="JEN-bU-OEj" firstAttribute="height" secondItem="X6l-iF-F75" secondAttribute="height" id="Uom-Je-T6T"/>
+                            <constraint firstItem="Vho-9W-7lk" firstAttribute="top" secondItem="X6l-iF-F75" secondAttribute="top" id="YS4-Lz-gsA"/>
+                            <constraint firstItem="JEN-bU-OEj" firstAttribute="leading" secondItem="X6l-iF-F75" secondAttribute="trailing" id="dF7-KR-LJq"/>
+                            <constraint firstItem="Vho-9W-7lk" firstAttribute="top" secondItem="JEN-bU-OEj" secondAttribute="top" id="ew8-Ce-K6H"/>
+                            <constraint firstItem="Vho-9W-7lk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hfO-xX-fUt"/>
+                            <constraint firstItem="JEN-bU-OEj" firstAttribute="bottom" secondItem="X6l-iF-F75" secondAttribute="bottom" id="hfS-T2-eMj"/>
+                            <constraint firstItem="uoi-kR-gd2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="i3b-g3-xzQ"/>
+                            <constraint firstItem="X6l-iF-F75" firstAttribute="baseline" secondItem="JEN-bU-OEj" secondAttribute="firstBaseline" id="lOv-VL-S6z"/>
+                            <constraint firstItem="X6l-iF-F75" firstAttribute="width" secondItem="Vho-9W-7lk" secondAttribute="width" id="tWE-a6-tBU"/>
+                            <constraint firstItem="Vho-9W-7lk" firstAttribute="top" secondItem="uoi-kR-gd2" secondAttribute="bottom" constant="74" id="wmw-7H-65e"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="YS4-Lz-gsA"/>
+                                <exclude reference="0r6-3c-kpd"/>
+                                <exclude reference="OcX-dc-lfm"/>
+                                <exclude reference="lOv-VL-S6z"/>
+                                <exclude reference="Oe5-ym-Asp"/>
+                                <exclude reference="9gi-vX-uGG"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imageview" destination="uoi-kR-gd2" id="IFt-6y-e8T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243" y="145"/>
+        </scene>
+    </scenes>
+</document>
