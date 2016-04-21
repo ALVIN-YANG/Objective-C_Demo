@@ -17,7 +17,7 @@
 - (NSArray *)originalDataSourceForTableView:(YLQDriftTableView *)tableView;
 @end
 
-@protocol YLQDriftTableViewDelegate <UITabBarDelegate>
+@protocol YLQDriftTableViewDelegate <UITableViewDelegate>
 @required
 /**
  *  将重新排序的数据源传到外部
