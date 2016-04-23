@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390ED9771CCB559600C5DCFE /* YLQTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 390ED9761CCB559600C5DCFE /* YLQTitleButton.m */; };
 		3940A89E1C81E64C001AD0E8 /* GlobalConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3940A8891C81E64C001AD0E8 /* GlobalConst.m */; };
 		3940A89F1C81E64C001AD0E8 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3940A88B1C81E64C001AD0E8 /* UIView+Frame.m */; };
 		3940A8A01C81E64C001AD0E8 /* YLQTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3940A88D1C81E64C001AD0E8 /* YLQTopWindow.m */; };
@@ -44,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		390ED9751CCB559600C5DCFE /* YLQTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLQTitleButton.h; sourceTree = "<group>"; };
+		390ED9761CCB559600C5DCFE /* YLQTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLQTitleButton.m; sourceTree = "<group>"; };
 		3940A87F1C81DB7E001AD0E8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3940A8881C81E64C001AD0E8 /* GlobalConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConst.h; sourceTree = "<group>"; };
 		3940A8891C81E64C001AD0E8 /* GlobalConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalConst.m; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				3940A88B1C81E64C001AD0E8 /* UIView+Frame.m */,
 				3940A88C1C81E64C001AD0E8 /* YLQTopWindow.h */,
 				3940A88D1C81E64C001AD0E8 /* YLQTopWindow.m */,
+				390ED9751CCB559600C5DCFE /* YLQTitleButton.h */,
+				390ED9761CCB559600C5DCFE /* YLQTitleButton.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -357,6 +362,7 @@
 				3940A8A61C81E64C001AD0E8 /* SubSecondTableViewController.m in Sources */,
 				3940A89E1C81E64C001AD0E8 /* GlobalConst.m in Sources */,
 				3940A8A51C81E64C001AD0E8 /* SubFirstTableViewController.m in Sources */,
+				390ED9771CCB559600C5DCFE /* YLQTitleButton.m in Sources */,
 				3940A8A11C81E64C001AD0E8 /* FirstViewController.m in Sources */,
 				39CDF0401C80A6AB00B923FF /* AppDelegate.m in Sources */,
 				39CDF03D1C80A6AB00B923FF /* main.m in Sources */,
