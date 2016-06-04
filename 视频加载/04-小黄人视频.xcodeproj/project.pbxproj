@@ -368,6 +368,7 @@
 				TargetAttributes = {
 					394C1D421C2FC9280061BB17 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SPXQYPSCZ5;
 					};
 					394C1D5B1C2FC9280061BB17 = {
 						CreatedOnToolsVersion = 7.2;
@@ -600,11 +601,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "04-小黄人视频/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "n.-4------";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ALVIN-YANG.media";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -612,11 +616,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "04-小黄人视频/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "n.-4------";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ALVIN-YANG.media";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -687,6 +694,7 @@
 				394C1D721C2FC9290061BB17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		394C1D731C2FC9290061BB17 /* Build configuration list for PBXNativeTarget "04-小黄人视频Tests" */ = {
 			isa = XCConfigurationList;
@@ -695,6 +703,7 @@
 				394C1D751C2FC9290061BB17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		394C1D761C2FC9290061BB17 /* Build configuration list for PBXNativeTarget "04-小黄人视频UITests" */ = {
 			isa = XCConfigurationList;
@@ -703,6 +712,7 @@
 				394C1D781C2FC9290061BB17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

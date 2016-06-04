@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39FC24CC1CEAA40100908C11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FC24CB1CEAA40100908C11 /* main.m */; };
+		39FC24CF1CEAA40100908C11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FC24CE1CEAA40100908C11 /* AppDelegate.m */; };
+		39FC24D21CEAA40100908C11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FC24D11CEAA40100908C11 /* ViewController.m */; };
+		39FC24D51CEAA40100908C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FC24D31CEAA40100908C11 /* Main.storyboard */; };
+		39FC24D71CEAA40100908C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39FC24D61CEAA40100908C11 /* Assets.xcassets */; };
+		39FC24DA1CEAA40100908C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FC24D81CEAA40100908C11 /* LaunchScreen.storyboard */; };
+		39FC24E51CEAA40100908C11 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FC24E41CEAA40100908C11 /* _______UITests.m */; };
+		39FC24F61CEAA49D00908C11 /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 39FC24F01CEAA49D00908C11 /* iconfont-password.png */; };
+		39FC24F71CEAA49D00908C11 /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 39FC24F11CEAA49D00908C11 /* iconfont-user.png */; };
+		39FC24F81CEAA49D00908C11 /* owl-login-arm-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39FC24F21CEAA49D00908C11 /* owl-login-arm-left@2x.png */; };
+		39FC24F91CEAA49D00908C11 /* owl-login-arm-right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39FC24F31CEAA49D00908C11 /* owl-login-arm-right@2x.png */; };
+		39FC24FA1CEAA49D00908C11 /* owl-login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39FC24F41CEAA49D00908C11 /* owl-login@2x.png */; };
+		39FC24FB1CEAA49D00908C11 /* icon_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 39FC24F51CEAA49D00908C11 /* icon_hand.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39FC24E11CEAA40100908C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39FC24BF1CEAA40100908C11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39FC24C61CEAA40100908C11;
+			remoteInfo = "猫头鹰登录动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39FC24C71CEAA40100908C11 /* 猫头鹰登录动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "猫头鹰登录动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39FC24CB1CEAA40100908C11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39FC24CD1CEAA40100908C11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39FC24CE1CEAA40100908C11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39FC24D01CEAA40100908C11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39FC24D11CEAA40100908C11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39FC24D41CEAA40100908C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39FC24D61CEAA40100908C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39FC24D91CEAA40100908C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39FC24DB1CEAA40100908C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39FC24E01CEAA40100908C11 /* 猫头鹰登录动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "猫头鹰登录动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39FC24E41CEAA40100908C11 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		39FC24E61CEAA40100908C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39FC24F01CEAA49D00908C11 /* iconfont-password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-password.png"; sourceTree = "<group>"; };
+		39FC24F11CEAA49D00908C11 /* iconfont-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-user.png"; sourceTree = "<group>"; };
+		39FC24F21CEAA49D00908C11 /* owl-login-arm-left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "owl-login-arm-left@2x.png"; sourceTree = "<group>"; };
+		39FC24F31CEAA49D00908C11 /* owl-login-arm-right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "owl-login-arm-right@2x.png"; sourceTree = "<group>"; };
+		39FC24F41CEAA49D00908C11 /* owl-login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "owl-login@2x.png"; sourceTree = "<group>"; };
+		39FC24F51CEAA49D00908C11 /* icon_hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_hand.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39FC24C41CEAA40100908C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FC24DD1CEAA40100908C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39FC24BE1CEAA40100908C11 = {
+			isa = PBXGroup;
+			children = (
+				39FC24C91CEAA40100908C11 /* 猫头鹰登录动画 */,
+				39FC24E31CEAA40100908C11 /* 猫头鹰登录动画UITests */,
+				39FC24C81CEAA40100908C11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39FC24C81CEAA40100908C11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39FC24C71CEAA40100908C11 /* 猫头鹰登录动画.app */,
+				39FC24E01CEAA40100908C11 /* 猫头鹰登录动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39FC24C91CEAA40100908C11 /* 猫头鹰登录动画 */ = {
+			isa = PBXGroup;
+			children = (
+				39FC24EF1CEAA49D00908C11 /* Images */,
+				39FC24CD1CEAA40100908C11 /* AppDelegate.h */,
+				39FC24CE1CEAA40100908C11 /* AppDelegate.m */,
+				39FC24D01CEAA40100908C11 /* ViewController.h */,
+				39FC24D11CEAA40100908C11 /* ViewController.m */,
+				39FC24D31CEAA40100908C11 /* Main.storyboard */,
+				39FC24D61CEAA40100908C11 /* Assets.xcassets */,
+				39FC24D81CEAA40100908C11 /* LaunchScreen.storyboard */,
+				39FC24DB1CEAA40100908C11 /* Info.plist */,
+				39FC24CA1CEAA40100908C11 /* Supporting Files */,
+			);
+			path = "猫头鹰登录动画";
+			sourceTree = "<group>";
+		};
+		39FC24CA1CEAA40100908C11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39FC24CB1CEAA40100908C11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39FC24E31CEAA40100908C11 /* 猫头鹰登录动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				39FC24E41CEAA40100908C11 /* _______UITests.m */,
+				39FC24E61CEAA40100908C11 /* Info.plist */,
+			);
+			path = "猫头鹰登录动画UITests";
+			sourceTree = "<group>";
+		};
+		39FC24EF1CEAA49D00908C11 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				39FC24F01CEAA49D00908C11 /* iconfont-password.png */,
+				39FC24F11CEAA49D00908C11 /* iconfont-user.png */,
+				39FC24F21CEAA49D00908C11 /* owl-login-arm-left@2x.png */,
+				39FC24F31CEAA49D00908C11 /* owl-login-arm-right@2x.png */,
+				39FC24F41CEAA49D00908C11 /* owl-login@2x.png */,
+				39FC24F51CEAA49D00908C11 /* icon_hand.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39FC24C61CEAA40100908C11 /* 猫头鹰登录动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39FC24E91CEAA40100908C11 /* Build configuration list for PBXNativeTarget "猫头鹰登录动画" */;
+			buildPhases = (
+				39FC24C31CEAA40100908C11 /* Sources */,
+				39FC24C41CEAA40100908C11 /* Frameworks */,
+				39FC24C51CEAA40100908C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "猫头鹰登录动画";
+			productName = "猫头鹰登录动画";
+			productReference = 39FC24C71CEAA40100908C11 /* 猫头鹰登录动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39FC24DF1CEAA40100908C11 /* 猫头鹰登录动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39FC24EC1CEAA40100908C11 /* Build configuration list for PBXNativeTarget "猫头鹰登录动画UITests" */;
+			buildPhases = (
+				39FC24DC1CEAA40100908C11 /* Sources */,
+				39FC24DD1CEAA40100908C11 /* Frameworks */,
+				39FC24DE1CEAA40100908C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39FC24E21CEAA40100908C11 /* PBXTargetDependency */,
+			);
+			name = "猫头鹰登录动画UITests";
+			productName = "猫头鹰登录动画UITests";
+			productReference = 39FC24E01CEAA40100908C11 /* 猫头鹰登录动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39FC24BF1CEAA40100908C11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "杨卢青";
+				TargetAttributes = {
+					39FC24C61CEAA40100908C11 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SPXQYPSCZ5;
+					};
+					39FC24DF1CEAA40100908C11 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SPXQYPSCZ5;
+						TestTargetID = 39FC24C61CEAA40100908C11;
+					};
+				};
+			};
+			buildConfigurationList = 39FC24C21CEAA40100908C11 /* Build configuration list for PBXProject "猫头鹰登录动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39FC24BE1CEAA40100908C11;
+			productRefGroup = 39FC24C81CEAA40100908C11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39FC24C61CEAA40100908C11 /* 猫头鹰登录动画 */,
+				39FC24DF1CEAA40100908C11 /* 猫头鹰登录动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39FC24C51CEAA40100908C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FC24F61CEAA49D00908C11 /* iconfont-password.png in Resources */,
+				39FC24F91CEAA49D00908C11 /* owl-login-arm-right@2x.png in Resources */,
+				39FC24F81CEAA49D00908C11 /* owl-login-arm-left@2x.png in Resources */,
+				39FC24DA1CEAA40100908C11 /* LaunchScreen.storyboard in Resources */,
+				39FC24D71CEAA40100908C11 /* Assets.xcassets in Resources */,
+				39FC24FA1CEAA49D00908C11 /* owl-login@2x.png in Resources */,
+				39FC24FB1CEAA49D00908C11 /* icon_hand.png in Resources */,
+				39FC24D51CEAA40100908C11 /* Main.storyboard in Resources */,
+				39FC24F71CEAA49D00908C11 /* iconfont-user.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FC24DE1CEAA40100908C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39FC24C31CEAA40100908C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FC24D21CEAA40100908C11 /* ViewController.m in Sources */,
+				39FC24CF1CEAA40100908C11 /* AppDelegate.m in Sources */,
+				39FC24CC1CEAA40100908C11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FC24DC1CEAA40100908C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FC24E51CEAA40100908C11 /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39FC24E21CEAA40100908C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39FC24C61CEAA40100908C11 /* 猫头鹰登录动画 */;
+			targetProxy = 39FC24E11CEAA40100908C11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39FC24D31CEAA40100908C11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39FC24D41CEAA40100908C11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39FC24D81CEAA40100908C11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39FC24D91CEAA40100908C11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39FC24E71CEAA40100908C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		39FC24E81CEAA40100908C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39FC24EA1CEAA40100908C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "猫头鹰登录动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ALVIN-YANG.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		39FC24EB1CEAA40100908C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "猫头鹰登录动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ALVIN-YANG.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		39FC24ED1CEAA40100908C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "猫头鹰登录动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ALVIN-YANG.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "猫头鹰登录动画";
+			};
+			name = Debug;
+		};
+		39FC24EE1CEAA40100908C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "猫头鹰登录动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ALVIN-YANG.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "猫头鹰登录动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39FC24C21CEAA40100908C11 /* Build configuration list for PBXProject "猫头鹰登录动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FC24E71CEAA40100908C11 /* Debug */,
+				39FC24E81CEAA40100908C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39FC24E91CEAA40100908C11 /* Build configuration list for PBXNativeTarget "猫头鹰登录动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FC24EA1CEAA40100908C11 /* Debug */,
+				39FC24EB1CEAA40100908C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39FC24EC1CEAA40100908C11 /* Build configuration list for PBXNativeTarget "猫头鹰登录动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FC24ED1CEAA40100908C11 /* Debug */,
+				39FC24EE1CEAA40100908C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39FC24BF1CEAA40100908C11 /* Project object */;
+}

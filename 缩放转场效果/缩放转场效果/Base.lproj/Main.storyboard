@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2Wg-DO-1py">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="b82-Y2-4OQ">
+            <objects>
+                <navigationController id="2Wg-DO-1py" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="e6W-fP-sRx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nL4-lf-cqH" kind="relationship" relationship="rootViewController" id="hF8-HM-Kbl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gbt-pq-nOo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3094" y="400"/>
+        </scene>
+        <!--Alvin-->
+        <scene sceneID="GqM-BK-Vhp">
+            <objects>
+                <collectionViewController id="nL4-lf-cqH" customClass="FirstCollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="sLE-gi-VdV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pP4-gE-Zx6">
+                            <size key="itemSize" width="151" height="218"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="B7B-qX-z4e" customClass="CollectionViewCell">
+                                <rect key="frame" x="0.0" y="64" width="151" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="151" height="218"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_4162.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="KuU-8D-RIj">
+                                            <rect key="frame" x="0.0" y="0.0" width="151" height="152.5"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnW-E8-gcL">
+                                            <rect key="frame" x="0.0" y="152.5" width="151" height="65.5"/>
+                                            <color key="backgroundColor" red="0.99215686270000003" green="0.95294117649999999" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                            <string key="text">我 右拳打开了天 化身为龙
+把 山河重新移动 填平裂缝
+将 东方 的日出调整了时空
+回到洪荒 去支配 去操纵</string>
+                                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="vnW-E8-gcL" secondAttribute="trailing" id="Frx-r1-Tqz"/>
+                                    <constraint firstItem="vnW-E8-gcL" firstAttribute="leading" secondItem="B7B-qX-z4e" secondAttribute="leading" id="GTB-58-LZv"/>
+                                    <constraint firstItem="KuU-8D-RIj" firstAttribute="top" secondItem="B7B-qX-z4e" secondAttribute="top" id="N7w-Eg-JW7"/>
+                                    <constraint firstItem="vnW-E8-gcL" firstAttribute="top" secondItem="KuU-8D-RIj" secondAttribute="bottom" id="NBL-6B-any"/>
+                                    <constraint firstItem="KuU-8D-RIj" firstAttribute="leading" secondItem="B7B-qX-z4e" secondAttribute="leading" id="VKL-rL-swq"/>
+                                    <constraint firstAttribute="trailing" secondItem="KuU-8D-RIj" secondAttribute="trailing" id="bKM-DK-eeB"/>
+                                    <constraint firstItem="KuU-8D-RIj" firstAttribute="height" secondItem="B7B-qX-z4e" secondAttribute="height" multiplier="0.7" id="e5P-A4-MG7"/>
+                                    <constraint firstAttribute="bottom" secondItem="vnW-E8-gcL" secondAttribute="bottom" id="hve-5S-dks"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="KuU-8D-RIj" id="LEG-2Z-Efd"/>
+                                    <outlet property="labelView" destination="vnW-E8-gcL" id="Y1r-aD-zoW"/>
+                                    <segue destination="Wg5-ra-zE6" kind="push" id="1Sc-el-ndt"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="nL4-lf-cqH" id="uWa-xV-cib"/>
+                            <outlet property="delegate" destination="nL4-lf-cqH" id="ZWQ-aX-YOq"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Alvin" id="Mh7-HX-HhC"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hbQ-E9-62j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2742" y="400"/>
+        </scene>
+        <!--Detail-->
+        <scene sceneID="KsZ-7t-YXt">
+            <objects>
+                <viewController id="Wg5-ra-zE6" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9RX-T2-Epz"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Yg-0n-QNW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1cr-nb-BT4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_4162.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="P9h-Co-c77">
+                                <rect key="frame" x="10" y="74" width="300" height="240"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaZ-ls-c5F">
+                                <rect key="frame" x="10" y="334" width="300" height="126"/>
+                                <string key="text">以敦煌为圆心的东北东
+这民族 的海岸线像一支弓
+那长城 像五千年来待射的梦
+我用手臂拉开这整个土地的重
+蒙古高原南下的风写些什么内容
+汉字到底懂不懂 一样肤色和面孔
+跨越黄河 东 登上泰山顶峰
+我向西 引北风 晒成一身古铜
+渴望着血脉相通 无限个千万弟兄
+我把天地拆封将长江水掏空
+人在古老河床蜕变中</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="P9h-Co-c77" secondAttribute="trailing" constant="10" id="APB-UH-vpf"/>
+                            <constraint firstItem="jaZ-ls-c5F" firstAttribute="leading" secondItem="P9h-Co-c77" secondAttribute="leading" id="CuO-3v-oC6"/>
+                            <constraint firstItem="jaZ-ls-c5F" firstAttribute="width" secondItem="P9h-Co-c77" secondAttribute="width" id="G41-it-MKe"/>
+                            <constraint firstItem="jaZ-ls-c5F" firstAttribute="trailing" secondItem="P9h-Co-c77" secondAttribute="trailing" id="Kz6-Yv-GqE"/>
+                            <constraint firstItem="jaZ-ls-c5F" firstAttribute="top" secondItem="P9h-Co-c77" secondAttribute="bottom" constant="20" id="bSQ-fL-RE1"/>
+                            <constraint firstItem="P9h-Co-c77" firstAttribute="top" secondItem="9RX-T2-Epz" secondAttribute="bottom" constant="10" id="fBt-gs-LzL"/>
+                            <constraint firstItem="P9h-Co-c77" firstAttribute="height" secondItem="1cr-nb-BT4" secondAttribute="height" multiplier="0.5" id="oP8-70-tDG"/>
+                            <constraint firstItem="P9h-Co-c77" firstAttribute="leading" secondItem="1cr-nb-BT4" secondAttribute="leading" constant="10" id="psi-Ed-KpJ"/>
+                            <constraint firstItem="0Yg-0n-QNW" firstAttribute="top" secondItem="jaZ-ls-c5F" secondAttribute="bottom" constant="20" id="sZp-SS-75N"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Detail" id="Zla-Ra-nP4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="SecondViewLabel" destination="jaZ-ls-c5F" id="oe3-BT-rSC"/>
+                        <outlet property="imageViewForSecond" destination="P9h-Co-c77" id="dE0-VF-kLx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AYD-Nh-jBz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2350" y="400"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_4162.JPG" width="1167" height="1472"/>
+    </resources>
+</document>
